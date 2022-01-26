@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list-container {
+  padding: 1rem;
+  background-color: white;
+  margin: 0.3rem;
+  padding: 1rem;
+}
+
+.todo-list-container h1 {
+  margin-top: 0;
+}
+
+.todo-input-container {
+  padding: 5px;
+}
+
+.todo-title-label {
+  display: block;
+}
+
+.todo-button {
+  padding: 0.3rem;
+  min-width: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 190, 87);
+  border: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+  border-radius: 3px;
+}
+
+.add-todo-input-group {
+  display: flex;
+}
+
+.todo-title-input {
+  flex: 1;
+  width: 50%;
+  /* display: block; */
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid rgb(238, 255, 238);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(231, 241, 255);
+}
+.todo-title-input:focus {
+  border: none;
+}
+
+.todoItem {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 8px 3px;
+}
+
+.todoItem .deleteItemButton {
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(243, 88, 88);
+}
+
+.todoItemList {
+  padding: 0;
+}
+
+.titleErrorMessage {
+  color: red;
+  margin-top: 0.3rem;
+}
+
+.todoItem p {
+  margin: 0;
+  flex: 1;
+}
